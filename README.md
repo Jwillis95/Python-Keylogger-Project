@@ -31,12 +31,12 @@ pip install pynput cryptography
 
 - `PyKey.py`: Runs on the target machine to capture and send keystrokes.
 - `keylogger_server.py`: Receives encrypted keystrokes from `PyKey.py` and logs them.
+- `keys.py`: Used to generate encryption keys.
 
 ## Additional Files
 
 - `control.py`: Demonstrates using the Controller module to manipulate keyboard and mouse inputs.
 - `listen.py`: Outputs mouse coordinates to the terminal.
-- `keys.py`: Used to generate encryption keys.
 
 ## Contact
 
@@ -44,4 +44,4 @@ Feel free to contact me on GitHub for any questions or feedback.
 
 ## Acknowledgements
 
-Thanks to the tutorial "Building a keylogger using Python + Pynput" by buildwithpython.
+Thanks to the tutorial "Building a keylogger using Python + Pynput" by buildwithpython on YouTube.
